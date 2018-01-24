@@ -9,17 +9,17 @@
   <!-- Écrire un programme qui écrit 500 fois « Je ne dois pas oublier de signer la feuille
   de présence. » -->
   <?php
+  $phrase=  " Je ne dois pas oublier de signer la feuille de présence </br>";
   for ($i=1; $i <= 500 ; $i++) {
     if($i%100 != 0){
       // if ($i!==100 && $i!==200 && $i!==300 && $i!==400 && $i!==500)
 
-      echo  " Je ne dois pas oublier de signer la feuille de présence </br>";
+      echo $phrase;
     }else{ /*indique les ligne 100/200/300/400/500 etc */
       echo $i."</br>";
-      echo " Je ne dois pas oublier de signer la feuille de présence </br>";
+      echo $phrase;
     }
   }
-  //ou $phrase=  " Je ne dois pas oublier de signer la feuille de présence </br>"; et faire un echo de $phrase
   ?>
 </body>
 </html>
