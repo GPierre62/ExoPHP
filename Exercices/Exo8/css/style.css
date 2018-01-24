@@ -1,0 +1,238 @@
+/*********Fonts*********/
+@font-face {
+    font-family: 'Cartoon';
+    src: url('../Fonts/Cartoonish.ttf');
+}
+@font-face {
+    font-family: 'Cartoon2';
+    src: url('../Fonts/Cartoonish-Italic.ttf');
+}
+@font-face {
+    font-family: 'Banzaï';
+    src: url('../Fonts/Bungasai.ttf');
+}
+
+body{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  background-color: rgb(19, 48, 88);
+  overflow-x: hidden;/*empéche le scroll latéral*/
+  overflow-y: auto;
+}
+section{/*pour que mes 80% de largeur s'applique à toutes mes divs*/
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  color:white;
+}
+nav{
+  width: 100%;
+  height: 20%;
+  background-image: url(../img/wood1.jpg);
+}
+nav img{
+  width: 35%;
+  height: 100%;
+  padding-left: 2%;
+}
+nav ul{
+  position: absolute;
+  list-style: none;
+  display: inline-flex;
+  padding-top: 1%;
+  vertical-align: middle;
+}
+nav ul li{
+  padding: 5%;
+  margin-right: auto;
+  font-family: Cartoon;
+  font-size: xx-large;
+  line-height: 250%;
+}
+nav ul li:hover{
+  font-family: Cartoon2;
+  text-shadow: 3px 3px 3px rgb(59, 233, 15);
+}
+nav ul li a{
+  text-decoration: none;
+  color: lightgrey;
+}
+/*************** Home ***************/
+.fndhome{
+  position: absolute;
+  background-image: url(../img/gfl.jpg);
+  height: 100%;
+  width:80%;
+  background-attachment: fixed;
+/*  filter: blur(2px);
+  opacity: .6; /* effet de flou (à voir aprés)*/
+}
+/*.fndhome:hover{
+  filter: none;
+  opacity: 1;
+  transition-duration: 2s;
+}/*enlévement flou au survole ( à voir aprés)*/
+.conthome{
+  position: absolute;
+  background-color: rgba(19, 48, 88, 0.73);
+  width: 50%;
+  left: 3%;
+  bottom: 3.75%;
+  border-style: groove;
+  border-color: limegreen;
+  padding: 1.5%;
+}
+.conthome h1{
+  margin-top: 0%;
+  font-family: Banzaï;
+  text-decoration-line: underline;
+}
+.conthome p{
+  text-align: justify;
+}
+.bouH{
+  background-image:linear-gradient(black, grey);
+  color: white;
+  border: 2px outset rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 1%;
+}
+.bouH:active{
+  border-style: inset;
+}
+/*************** Prod ***************/
+#produit{
+  background-image: linear-gradient(rgba(111, 195, 86, 0.7),rgba(203, 212, 104,0.6));
+}
+
+#produit h2{
+  /*margin-top: 0%;*/
+  float: right;
+}
+.Gprod{
+  position: relative;
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15%;
+}
+.prod{
+  background-color: rgb(210, 153, 199);
+  border: 1px solid black;
+  height: auto;
+  width: 20%;
+  box-shadow: 6px 6px 6px black,-2px -2px 2px white;
+  color: black;
+}
+.prod h3{
+  margin:0%;
+  float: left;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.prod p{
+  float: right;
+  margin: 5%;
+  background-color: #1160ce;
+  padding: 2.5%;
+  margin-right: 5%;
+  box-shadow: 2px 2px 2px #604747;
+}
+.prod img{
+  width:90%;
+  height:65%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+/*************** Boutique ***************/
+.fndbout{
+  position:relative;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/flower19.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contbout{
+  position:absolute;
+  float: right;
+  background-color: rgba(19, 48, 88, 0.73);
+  width: 50%;
+  right: 3%;
+  bottom: 3.75%;
+  border-style: groove;
+  border-color: limegreen;
+  padding: 1.5%;
+}
+.contbout h2{
+  margin-top: 0%;
+  font-family: Banzaï;
+  text-decoration-line: underline;
+}
+.contbout p{
+  text-align: justify;
+}
+.rsx{
+  display: inline;
+  float: right;
+}
+.rpmail{
+  bottom: 5%;
+}
+/*************** Contact ***************/
+.fndform{
+  height: 100%;
+  width: 100%;
+  background-image:url(../img/out.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.formulaire{
+  /*border: 1px solid red;*/
+  width: 50%;
+/*  padding-left: 20%;*/
+  padding-top:10%;
+  margin: auto;
+}
+.formulaire ul{
+  background-image: url(../img/wood2.jpeg);
+  list-style: none;
+  margin: auto;
+  padding:11%;
+}
+.formulaire li{
+  width: 100%;
+  margin-bottom: 2%;
+}
+.nonom{
+  width: 98%;
+}
+.mamail{
+  width:98%;
+}
+.memess{
+  width: 100%;
+}
+.envoi{
+  float:right;
+}
+footer{
+  height: 5%;
+  background-image: url(../img/wood1.jpg);
+}
+footer p{
+  color: White;
+  display: inline;
+}
+footer p.rsx{
+  margin-top: 0.1%;
+  margin-right: 5%;
+  margin-bottom: 0%;
+}
+.retour{
+  margin-left: 31%;
+}
