@@ -6,7 +6,7 @@ include ("PAGES/head.php");?>
   <?php
   include ("PAGES/nav.php");
   include ("PAGES/home.php");
-  include ("PAGES/prop.php");
+  include ("PAGES/prod.php");
   include ("PAGES/boutique.php");
   include ("PAGES/contact.php");
   include ("PAGES/footer.php")

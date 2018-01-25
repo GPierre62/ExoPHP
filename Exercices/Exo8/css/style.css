@@ -17,12 +17,12 @@ body{
   height: 100%;
   width: 100%;
   margin: 0%;
-  background-color: rgb(19, 48, 88);
+  background-color: #D8FFFC;
   overflow-x: hidden;/*empéche le scroll latéral*/
   overflow-y: auto;
 }
-section{/*pour que mes 80% de largeur s'applique à toutes mes divs*/
-  width: 80%;
+section{
+  width: 100%;
   height: 100%;
   margin: auto;
   color:white;
@@ -64,7 +64,7 @@ nav ul li a{
   position: absolute;
   background-image: url(../img/gfl.jpg);
   height: 100%;
-  width:80%;
+  width:100%;
   background-attachment: fixed;
 /*  filter: blur(2px);
   opacity: .6; /* effet de flou (à voir aprés)*/
@@ -104,7 +104,7 @@ nav ul li a{
 }
 /*************** Prod ***************/
 #produit{
-  background-image: linear-gradient(rgba(111, 195, 86, 0.7),rgba(203, 212, 104,0.6));
+  background-image: linear-gradient(#5C6086,#D8FFFC);
 }
 
 #produit h2{
