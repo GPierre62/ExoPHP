@@ -5,5 +5,6 @@
       <li><a href="#produit"> Produits </a></li>
       <li><a href="#boutique"> Boutique </a></li>
       <li><a href="#contact"> Contact </a></li>
+      <li><a href="PAGES/Connection.php">Connection</a></li>
     </ul>
 </nav>
