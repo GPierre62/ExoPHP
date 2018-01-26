@@ -24,13 +24,14 @@ include ("coonectBDD.php");
     while ($resultat = $reponse->fetch()){
       if ($resultat['Password'] == $_POST['PassKey']) { /*si les resultat de requete sont égaleau saisie de l'utilisateur alors tu fait ça!*/
         echo "Connection réussit";
-        $_SESSION['prenom']= $Pseudonyme ;
+        $_SESSION['prenom']= $Pseudonyme;
         $Bonjour = "Bienvenue ". $_SESSION['prenom']. " !";
         $connectReussit= true;
       }
     }
+    $reponse->closeCursor();
   }
-  $reponse->closeCursor();
+
 
   ?>
 </body>
